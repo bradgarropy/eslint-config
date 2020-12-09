@@ -1,11 +1,11 @@
-# 💎 eslint-config-bradgarropy
+# 💎 eslint-config
 
-<a href="https://www.npmjs.com/package/eslint-config-bradgarropy">
-    <img alt="npm" src="https://img.shields.io/npm/v/eslint-config-bradgarropy.svg?color=FB3B49&style=flat-square">
+<a href="https://www.npmjs.com/package/@bradgarropy/eslint-config">
+    <img alt="npm" src="https://img.shields.io/npm/v/@bradgarropy/eslint-config.svg?color=FB3B49&style=flat-square">
 </a>
 
-<a href="https://www.npmjs.com/package/eslint-config-bradgarropy">
-    <img alt="npm" src="https://img.shields.io/npm/dt/eslint-config-bradgarropy?style=flat-square">
+<a href="https://www.npmjs.com/package/@bradgarropy/eslint-config">
+    <img alt="npm" src="https://img.shields.io/npm/dt/@bradgarropy/eslint-config?style=flat-square">
 </a>
 
 _My personal [eslint][1] configuration._
@@ -17,7 +17,7 @@ This package is hosted on [npm][2].
 Install the configuration and it's peer dependencies as a development dependency.
 
 ```
-npx install-peerdeps --dev eslint-config-bradgarropy
+npx install-peerdeps --dev @bradgarropy/eslint-config
 ```
 
 > This installs peer dependencies automatically using [npx][3] and [install-peerdeps][4] so you don't have to!
@@ -28,7 +28,7 @@ Create an `.eslintrc` file in the root of your project and tell it to extend the
 
 ```
 {
-    extends: "bradgarropy"
+    extends: "@bradgarropy/eslint-config"
 }
 ```
 
@@ -43,10 +43,10 @@ Or you can consult the [ESLint Shareable Configs documentation][6].
 And if all else fails, you can ask me directly on [Twitter][7] or my [AMA][8].
 
 [1]: https://eslint.org
-[2]: https://www.npmjs.com/package/eslint-config-bradgarropy
+[2]: https://www.npmjs.com/package/@bradgarropy/eslint-config
 [3]: https://www.npmjs.com/package/npx
 [4]: https://www.npmjs.com/package/install-peerdeps
-[5]: https://github.com/bradgarropy/eslint-config-bradgarropy/issues
+[5]: https://github.com/bradgarropy/eslint-config/issues
 [6]: https://eslint.org/docs/developer-guide/shareable-configs
 [7]: https://twitter.com/bradgarropy
 [8]: https://github.com/bradgarropy/ama
