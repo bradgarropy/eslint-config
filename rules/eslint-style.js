@@ -10,7 +10,7 @@ module.exports = {
         ],
         "comma-style": ["error", "last"],
         "eol-last": ["error", "always"],
-        "function-paren-newline": ["error", "consistent"],
+        "function-paren-newline": ["off"],
         "indent": ["off"],
         "no-mixed-spaces-and-tabs": ["error"],
         "object-curly-newline": [
