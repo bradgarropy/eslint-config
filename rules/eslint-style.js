@@ -11,13 +11,7 @@ module.exports = {
         "comma-style": ["error", "last"],
         "eol-last": ["error", "always"],
         "function-paren-newline": ["error", "consistent"],
-        "indent": [
-            "error",
-            4,
-            {
-                SwitchCase: 1,
-            },
-        ],
+        "indent": ["off"],
         "no-mixed-spaces-and-tabs": ["error"],
         "object-curly-newline": [
             "error",
