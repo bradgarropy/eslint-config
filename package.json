@@ -1,6 +1,6 @@
 {
     "name": "@bradgarropy/eslint-config",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "💎 eslint configuration",
     "keywords": [
         "eslint",
@@ -27,16 +27,14 @@
         "lint:fix": "eslint . --fix"
     },
     "peerDependencies": {
-        "babel-eslint": "^10.1.0",
         "eslint": "^7.16.0",
         "eslint-config-prettier": "^7.1.0",
         "eslint-plugin-simple-import-sort": "^7.0.0"
     },
     "devDependencies": {
-        "babel-eslint": "^10.1.0",
-        "eslint": "^7.16.0",
-        "eslint-config-prettier": "^7.1.0",
+        "@babel/eslint-parser": "^7.16.3",
+        "eslint": "^8.4.1",
+        "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-simple-import-sort": "^7.0.0"
-    },
-    "dependencies": {}
+    }
 }

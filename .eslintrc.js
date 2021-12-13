@@ -17,12 +17,13 @@ module.exports = {
         "./rules/simple-import-sort.js",
     ],
     overrides: [],
+    parser: "@babel/eslint-parser",
     parserOptions: {
         ecmaFeatures: {},
+        requireConfigFile: false,
         sourceType: "module",
     },
     plugins: ["simple-import-sort"],
-    parser: "babel-eslint",
     rules: {},
     settings: {},
 }
