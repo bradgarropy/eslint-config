@@ -9,22 +9,22 @@ _My personal [eslint][eslint] configuration._
 
 This package is hosted on [npm][npm].
 
-Install the configuration and it's peer dependencies as a development dependency.
+Install the configuration as a development dependency.
 
 ```
-npx install-peerdeps --dev @bradgarropy/eslint-config
+npm install --dev @bradgarropy/eslint-config
 ```
-
-> This installs peer dependencies automatically using [npx][npx] and [install-peerdeps][peer] so you don't have to!
 
 ## 🥑 Usage
 
-Create an `.eslintrc` file in the root of your project and tell it to extend the configuration.
+Create an `eslint.config.js` file in the root of your project. Then import the configuration and add it to the list of configuration objects.
 
-```
-{
-    extends: "@bradgarropy/eslint-config"
-}
+```javascript
+import bgConfig from "@bradgarropy/eslint-config"
+
+const config = [...bgConfig]
+
+export default config
 ```
 
 > You can add more ESLint configuration options in this file if you want.
