@@ -1,8 +1,8 @@
-import babelParser from "@babel/eslint-parser"
 import js from "@eslint/js"
 import prettier from "eslint-config-prettier"
 import importSort from "eslint-plugin-simple-import-sort"
 import globals from "globals"
+import tseslint from "typescript-eslint"
 
 const config = [
     {
@@ -13,8 +13,10 @@ const config = [
                 ...globals.jest,
                 ...globals.es2021,
             },
-            parser: babelParser,
+            parser: tseslint.parser,
             parserOptions: {
+                ecmaFeatures: {},
+                project: "./tsconfig.json",
                 requireConfigFile: false,
             },
             sourceType: "module",
