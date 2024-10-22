@@ -1,6 +1,6 @@
 {
     "name": "@bradgarropy/eslint-config",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "type": "module",
     "exports": "./index.js",
     "description": "💎 eslint configuration",
@@ -37,6 +37,6 @@
         "eslint": "^9.1.1",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-simple-import-sort": "^12.0.0",
-        "globals": "^15.1.0"
+        "globals": "^15.11.0"
     }
 }
