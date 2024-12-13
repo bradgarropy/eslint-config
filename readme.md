@@ -22,7 +22,10 @@ Create an `eslint.config.js` file in the root of your project. Then import the c
 ```javascript
 import bgConfig from "@bradgarropy/eslint-config"
 
-const config = [...bgConfig]
+const config = [
+    ...bgConfig,
+    // { Your configuration goes here. },
+]
 
 export default config
 ```
@@ -39,8 +42,6 @@ export default config
 [downloads-badge]: https://img.shields.io/npm/dt/@bradgarropy/eslint-config?style=flat-square
 [npm]: https://www.npmjs.com/package/@bradgarropy/eslint-config
 [eslint]: https://eslint.org
-[npx]: https://www.npmjs.com/package/npx
-[peer]: https://www.npmjs.com/package/install-peerdeps
 [issues]: https://github.com/bradgarropy/eslint-config/issues
 [twitter]: https://twitter.com/bradgarropy
 [ama]: https://github.com/bradgarropy/ama
