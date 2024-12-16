@@ -8,6 +8,7 @@ import jsxA11y from "eslint-plugin-jsx-a11y"
 import react from "eslint-plugin-react"
 import reactHooks from "eslint-plugin-react-hooks"
 import simpleImportSort from "eslint-plugin-simple-import-sort"
+import globals from "globals"
 import ts from "typescript-eslint"
 
 const filename = fileURLToPath(import.meta.url)
@@ -17,8 +18,13 @@ const gitignore = path.resolve(dirname, ".gitignore")
 const config = ts.config([
     includeIgnoreFile(gitignore),
     {
-        ignores: ["build"],
+        ignores: ["build", "coverage"],
     },
+    js.configs.recommended,
+    ts.configs.recommended,
+    react.configs.flat.recommended,
+    react.configs.flat["jsx-runtime"],
+    jsxA11y.flatConfigs.recommended,
     {
         files: [
             "**/*.js",
@@ -30,7 +36,14 @@ const config = ts.config([
             "**/*.mts",
             "**/*.tsx",
         ],
+
         languageOptions: {
+            globals: {
+                ...globals.browser,
+                ...globals.es2025,
+                ...globals.jest,
+                ...globals.node,
+            },
             parserOptions: {
                 projectService: true,
                 tsconfigRootDir: import.meta.dirname,
@@ -46,13 +59,6 @@ const config = ts.config([
                 version: "detect",
             },
         },
-    },
-    js.configs.recommended,
-    ts.configs.recommended,
-    react.configs.flat.recommended,
-    react.configs.flat["jsx-runtime"],
-    jsxA11y.flatConfigs.recommended,
-    {
         rules: {
             ...reactHooks.configs.recommended.rules,
             ...vitest.configs.recommended.rules,
