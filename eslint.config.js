@@ -1,7 +1,3 @@
-import path from "node:path"
-import {fileURLToPath} from "node:url"
-
-import {includeIgnoreFile} from "@eslint/compat"
 import js from "@eslint/js"
 import vitest from "@vitest/eslint-plugin"
 import jsxA11y from "eslint-plugin-jsx-a11y"
@@ -11,14 +7,9 @@ import simpleImportSort from "eslint-plugin-simple-import-sort"
 import globals from "globals"
 import ts from "typescript-eslint"
 
-const filename = fileURLToPath(import.meta.url)
-const dirname = path.dirname(filename)
-const gitignore = path.resolve(dirname, ".gitignore")
-
 const config = ts.config([
-    includeIgnoreFile(gitignore),
     {
-        ignores: ["build", "coverage"],
+        ignores: ["build", "coverage", "node_modules"],
     },
     js.configs.recommended,
     ts.configs.recommended,
