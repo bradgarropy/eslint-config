@@ -1,6 +1,6 @@
 {
     "name": "@bradgarropy/eslint-config",
-    "version": "3.0.1",
+    "version": "3.1.0",
     "type": "module",
     "exports": "./index.js",
     "description": "💎 eslint configuration",
@@ -25,7 +25,8 @@
     },
     "scripts": {
         "lint": "eslint .",
-        "lint:fix": "eslint . --fix"
+        "lint:fix": "eslint . --fix",
+        "contributors": "all-contributors generate"
     },
     "dependencies": {
         "@eslint/js": "^9.1.1",
@@ -38,5 +39,8 @@
         "eslint-plugin-simple-import-sort": "^12.0.0",
         "globals": "^15.13.0",
         "typescript-eslint": "^8.11.0"
+    },
+    "devDependencies": {
+        "all-contributors-cli": "^6.26.1"
     }
 }
