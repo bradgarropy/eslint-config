@@ -1,6 +1,6 @@
 {
     "name": "@bradgarropy/eslint-config",
-    "version": "2.1.0",
+    "version": "3.0.0",
     "type": "module",
     "exports": "./index.js",
     "description": "💎 eslint configuration",
@@ -27,16 +27,17 @@
         "lint": "eslint .",
         "lint:fix": "eslint . --fix"
     },
-    "peerDependencies": {
-        "eslint": ">= 9"
-    },
     "dependencies": {
+        "@eslint/compat": "^1.2.4",
         "@eslint/js": "^9.1.1",
-        "@types/eslint": "^8.56.10",
-        "eslint": ">= 9",
-        "eslint-config-prettier": "^9.1.0",
+        "@types/eslint": "^9.6.1",
+        "@vitest/eslint-plugin": "^1.1.16",
+        "eslint": "^9.17.0",
+        "eslint-plugin-jsx-a11y": "^6.10.2",
+        "eslint-plugin-react": "^7.37.2",
+        "eslint-plugin-react-hooks": "^5.1.0",
         "eslint-plugin-simple-import-sort": "^12.0.0",
-        "globals": "^15.11.0",
+        "globals": "^15.13.0",
         "typescript-eslint": "^8.11.0"
     }
 }
