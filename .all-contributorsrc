@@ -3,10 +3,7 @@
     "projectOwner": "bradgarropy",
     "repoType": "github",
     "repoHost": "https://github.com",
-    "files": [
-        "readme.md",
-        "contributing.md"
-    ],
+    "files": ["readme.md", "contributing.md"],
     "imageSize": 100,
     "contributorsPerLine": 7,
     "contributorsSortAlphabetically": false,
@@ -17,22 +14,14 @@
             "name": "Brad Garropy",
             "avatar_url": "https://avatars.githubusercontent.com/u/11336745?v=4",
             "profile": "https://bradgarropy.com",
-            "contributions": [
-                "code",
-                "doc",
-                "infra",
-                "test"
-            ]
+            "contributions": ["code", "doc", "infra", "test"]
         },
         {
             "login": "JoshuaKGoldberg",
             "name": "Josh Goldberg ✨",
             "avatar_url": "https://avatars.githubusercontent.com/u/3335181?v=4",
             "profile": "http://www.joshuakgoldberg.com",
-            "contributions": [
-                "review",
-                "tool"
-            ]
+            "contributions": ["review", "tool"]
         }
     ],
     "commitType": "docs",
