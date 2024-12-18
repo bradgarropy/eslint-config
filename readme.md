@@ -2,6 +2,8 @@
 
 [![version][version-badge]][npm]
 [![downloads][downloads-badge]][npm]
+[![contributing][contributing-badge]][contributing]
+[![contributors][contributors-badge]][contributors]
 
 _My personal [eslint][eslint] configuration._
 
@@ -130,8 +132,14 @@ I appreciate any and all types of contributions to this project! Contributors ar
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-
-<!--  -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://bradgarropy.com"><img src="https://avatars.githubusercontent.com/u/11336745?v=4?s=100" width="100px;" alt="Brad Garropy"/><br /><sub><b>Brad Garropy</b></sub></a><br /><a href="https://github.com/bradgarropy/bradgarropy.com/commits?author=bradgarropy" title="Code">💻</a> <a href="https://github.com/bradgarropy/bradgarropy.com/commits?author=bradgarropy" title="Documentation">📖</a> <a href="#infra-bradgarropy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/bradgarropy/bradgarropy.com/commits?author=bradgarropy" title="Tests">⚠️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.joshuakgoldberg.com"><img src="https://avatars.githubusercontent.com/u/3335181?v=4?s=100" width="100px;" alt="Josh Goldberg ✨"/><br /><sub><b>Josh Goldberg ✨</b></sub></a><br /><a href="https://github.com/bradgarropy/bradgarropy.com/pulls?q=is%3Apr+reviewed-by%3AJoshuaKGoldberg" title="Reviewed Pull Requests">👀</a> <a href="#tool-JoshuaKGoldberg" title="Tools">🔧</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
@@ -151,3 +159,7 @@ I appreciate any and all types of contributions to this project! Contributors ar
 [issues]: https://github.com/bradgarropy/eslint-config/issues
 [twitter]: https://twitter.com/bradgarropy
 [ama]: https://github.com/bradgarropy/ama
+[contributing]: https://github.com/bradgarropy/eslint-config/blob/main/contributing.md
+[contributing-badge]: https://img.shields.io/badge/PRs-welcome-success?style=flat-square
+[contributors]: #-Contributors
+[contributors-badge]: https://img.shields.io/github/all-contributors/bradgarropy/eslint-config?
