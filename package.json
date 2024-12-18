@@ -7,7 +7,12 @@
     "keywords": [
         "eslint",
         "eslint-config",
-        "prettier"
+        "prettier",
+        "javascript",
+        "typescript",
+        "react",
+        "a11y",
+        "vitest"
     ],
     "homepage": "https://github.com/bradgarropy/eslint-config",
     "bugs": {
@@ -26,6 +31,8 @@
     "scripts": {
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
+        "format": "prettier --check .",
+        "format:fix": "prettier --write .",
         "contributors": "all-contributors generate"
     },
     "dependencies": {
@@ -41,6 +48,7 @@
         "typescript-eslint": "^8.11.0"
     },
     "devDependencies": {
-        "all-contributors-cli": "^6.26.1"
+        "all-contributors-cli": "^6.26.1",
+        "prettier": "^3.4.2"
     }
 }
