@@ -1,13 +1,18 @@
 {
     "name": "@bradgarropy/eslint-config",
-    "version": "3.0.1",
+    "version": "3.1.0",
     "type": "module",
     "exports": "./index.js",
     "description": "💎 eslint configuration",
     "keywords": [
         "eslint",
         "eslint-config",
-        "prettier"
+        "prettier",
+        "javascript",
+        "typescript",
+        "react",
+        "a11y",
+        "vitest"
     ],
     "homepage": "https://github.com/bradgarropy/eslint-config",
     "bugs": {
@@ -25,7 +30,10 @@
     },
     "scripts": {
         "lint": "eslint .",
-        "lint:fix": "eslint . --fix"
+        "lint:fix": "eslint . --fix",
+        "format": "prettier --check .",
+        "format:fix": "prettier --write .",
+        "contributors": "all-contributors generate"
     },
     "dependencies": {
         "@eslint/js": "^9.1.1",
@@ -38,5 +46,9 @@
         "eslint-plugin-simple-import-sort": "^12.0.0",
         "globals": "^15.13.0",
         "typescript-eslint": "^8.11.0"
+    },
+    "devDependencies": {
+        "all-contributors-cli": "^6.26.1",
+        "prettier": "^3.4.2"
     }
 }
