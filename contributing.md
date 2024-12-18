@@ -21,21 +21,20 @@ In order to submit a pull request, you'll have to setup your own development env
 Then you can clone the forked repository to your system.
 
 ```zsh
-git clone https://github.com/<username>/bradgarropy.com
+git clone https://github.com/<username>/eslint-config
 ```
 
 Next you need to install the dependencies.
 
 ```zsh
-cd bradgarropy.com
+cd eslint-config
 npm install
 ```
 
-Finally, you can build and test the project.
+Finally, you can run the project.
 
 ```zsh
-npm run test
-npm run build
+npm run lint
 ```
 
 Now you're ready to start writing code!
@@ -93,8 +92,8 @@ I appreciate any and all types of contributions to this project! Contributors ar
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://bradgarropy.com"><img src="https://avatars.githubusercontent.com/u/11336745?v=4?s=100" width="100px;" alt="Brad Garropy"/><br /><sub><b>Brad Garropy</b></sub></a><br /><a href="https://github.com/bradgarropy/bradgarropy.com/commits?author=bradgarropy" title="Code">💻</a> <a href="https://github.com/bradgarropy/bradgarropy.com/commits?author=bradgarropy" title="Documentation">📖</a> <a href="#infra-bradgarropy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/bradgarropy/bradgarropy.com/commits?author=bradgarropy" title="Tests">⚠️</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="http://www.joshuakgoldberg.com"><img src="https://avatars.githubusercontent.com/u/3335181?v=4?s=100" width="100px;" alt="Josh Goldberg ✨"/><br /><sub><b>Josh Goldberg ✨</b></sub></a><br /><a href="https://github.com/bradgarropy/bradgarropy.com/pulls?q=is%3Apr+reviewed-by%3AJoshuaKGoldberg" title="Reviewed Pull Requests">👀</a> <a href="#tool-JoshuaKGoldberg" title="Tools">🔧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://bradgarropy.com"><img src="https://avatars.githubusercontent.com/u/11336745?v=4?s=100" width="100px;" alt="Brad Garropy"/><br /><sub><b>Brad Garropy</b></sub></a><br /><a href="https://github.com/bradgarropy/eslint-config/commits?author=bradgarropy" title="Code">💻</a> <a href="https://github.com/bradgarropy/eslint-config/commits?author=bradgarropy" title="Documentation">📖</a> <a href="#infra-bradgarropy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/bradgarropy/eslint-config/commits?author=bradgarropy" title="Tests">⚠️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.joshuakgoldberg.com"><img src="https://avatars.githubusercontent.com/u/3335181?v=4?s=100" width="100px;" alt="Josh Goldberg ✨"/><br /><sub><b>Josh Goldberg ✨</b></sub></a><br /><a href="https://github.com/bradgarropy/eslint-config/pulls?q=is%3Apr+reviewed-by%3AJoshuaKGoldberg" title="Reviewed Pull Requests">👀</a> <a href="#tool-JoshuaKGoldberg" title="Tools">🔧</a></td>
     </tr>
   </tbody>
 </table>
@@ -104,9 +103,9 @@ I appreciate any and all types of contributions to this project! Contributors ar
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-[issues]: https://github.com/bradgarropy/bradgarropy.com/issues
+[issues]: https://github.com/bradgarropy/eslint-config/issues
 [codesandbox]: https://codesandbox.io
 [kcd-pr]: https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
-[license]: https://github.com/bradgarropy/bradgarropy.com/blob/main/license
-[fork]: https://github.com/bradgarropy/bradgarropy.com/fork
-[contributors]: https://github.com/bradgarropy/bradgarropy.com#-contributors
+[license]: https://github.com/bradgarropy/eslint-config/blob/main/license
+[fork]: https://github.com/bradgarropy/eslint-config/fork
+[contributors]: https://github.com/bradgarropy/eslint-config#-contributors
