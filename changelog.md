@@ -38,6 +38,16 @@ _YYYY-MM-DD_
 
 ## [3.1.0][3.1.0]
 
+_2025-02-24_
+
+- Ignore additional directories
+    - `.cache`
+    - `public/build`
+    - `test-results`
+    - `playwright-report`
+
+## [3.1.0][3.1.0]
+
 _2024-12-17_
 
 - Support [`all-contributors`][all-contributors]
