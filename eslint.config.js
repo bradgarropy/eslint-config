@@ -9,7 +9,18 @@ import ts from "typescript-eslint"
 
 const config = ts.config([
     {
-        ignores: ["build", "coverage", "node_modules"],
+        ignores: [
+            // dependencies
+            "node_modules",
+            // build
+            ".cache",
+            "build",
+            "public/build",
+            // test
+            "coverage",
+            "test-results",
+            "playwright-report",
+        ],
     },
     js.configs.recommended,
     ts.configs.recommended,
