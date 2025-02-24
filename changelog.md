@@ -36,7 +36,7 @@ _YYYY-MM-DD_
 
 - _TBD_
 
-## [3.1.0][3.1.0]
+## [3.1.1][3.1.1]
 
 _2025-02-24_
 
@@ -53,7 +53,8 @@ _2024-12-17_
 - Support [`all-contributors`][all-contributors]
 - Add a `changelog`
 
-[unreleased]: https://github.com/bradgarropy/eslint-config/compare/v3.1.0...HEAD
+[unreleased]: https://github.com/bradgarropy/eslint-config/compare/v3.1.1...HEAD
+[3.1.1]: https://github.com/bradgarropy/eslint-config/releases/tag/v3.1.1
 [3.1.0]: https://github.com/bradgarropy/eslint-config/releases/tag/v3.1.0
 [keep-a-changelog]: https://keepachangelog.com
 [semver]: https://semver.org
