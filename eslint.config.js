@@ -15,6 +15,7 @@ const config = ts.config([
             // build
             ".cache",
             "build",
+            "dist",
             "public/build",
             // test
             "coverage",
