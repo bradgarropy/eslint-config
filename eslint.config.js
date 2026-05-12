@@ -21,6 +21,9 @@ const config = ts.config([
             "coverage",
             "test-results",
             "playwright-report",
+            // cloudflare
+            ".wrangler",
+            "worker-configuration.d.ts",
         ],
     },
     js.configs.recommended,
