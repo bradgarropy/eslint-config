@@ -36,6 +36,13 @@ _YYYY-MM-DD_
 
 - _TBD_
 
+## [3.2.0][3.2.0]
+
+_2026-05-12_
+
+- Ignore `.wrangler` directory
+- Ignore `worker-configuration.d.ts`
+
 ## [3.1.2][3.1.2]
 
 _2025-04-24_
