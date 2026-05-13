@@ -24,6 +24,8 @@ const config = ts.config([
             // cloudflare
             ".wrangler",
             "worker-configuration.d.ts",
+            // react router
+            ".react-router",
         ],
     },
     js.configs.recommended,
